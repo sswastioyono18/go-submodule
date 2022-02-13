@@ -1,7 +1,11 @@
 package tools_1
 
-import "github.com/google/uuid"
+import (
+	"fmt"
+	"github.com/google/uuid"
+)
 
 func NewGoogleUUID() string {
+	fmt.Println("hehehehehe")
 	return uuid.NewString()
 }
