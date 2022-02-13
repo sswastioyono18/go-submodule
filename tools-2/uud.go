@@ -7,6 +7,6 @@ import (
 
 func NewGofrsUUID() string {
 	strResult, _ := uuid.NewV4()
-	log.Logger.Info().Msg("Test123")
+	log.Logger.Info().Msg("tools 2 berubah")
 	return strResult.String()
 }
