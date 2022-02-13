@@ -7,6 +7,6 @@ import (
 
 func NewGofrsUUID() string {
 	strResult, _ := uuid.NewV4()
-	fmt.Println("test hehehehehe 123 hahahaha")
+	fmt.Println("test hehehehehe 123 hahahaha huhuhuu")
 	return strResult.String()
 }
