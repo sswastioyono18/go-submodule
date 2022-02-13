@@ -1,8 +1,12 @@
 package tools_2
 
-import "github.com/gofrs/uuid"
+import (
+	"fmt"
+	"github.com/gofrs/uuid"
+)
 
 func NewGofrsUUID() string {
 	strResult, _ := uuid.NewV4()
+	fmt.Println("TEST123")
 	return strResult.String()
 }
